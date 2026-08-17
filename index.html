@@ -3,17 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doctor website</title>
+    <title>Doctor Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="site-header">
+        <div class="header-container">
+            <!-- Left: Logo -->
+            <div class="logo">
+                <a href="#">Dr. Clinic</a>
+            </div>
 
+            <!-- Right: Menu Items -->
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
     </header>
-    <h1>Doctor website </h1>
+
+    <main>
+        <h1>Welcome to the Doctor Website</h1>
+    </main>
 
     <footer>
-
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
