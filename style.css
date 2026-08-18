@@ -99,6 +99,73 @@ body {
 }
 
 
+/* Why Choose Us Section Styles */
+.why-choose-us {
+    padding: 5rem 2rem;
+    background-color: #f8f9fa;
+}
+
+.why-choose-us .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-header h2 {
+    font-size: 2.25rem;
+    color: #1a252f;
+    margin-bottom: 0.75rem;
+}
+
+.section-header p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Features Grid */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+}
+
+.feature-card {
+    background: #ffffff;
+    padding: 2.5rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.icon-box {
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.feature-card h3 {
+    font-size: 1.25rem;
+    color: #1a252f;
+    margin-bottom: 0.75rem;
+}
+
+.feature-card p {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.5;
+}
+
 /* Mobile Menu Toggle */
 .menu-toggle {
     display: none;
