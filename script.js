@@ -23,3 +23,20 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+
+// FAQ Accordion Toggle
+document.querySelectorAll(".faq-question").forEach(question => {
+    question.addEventListener("click", () => {
+        const currentItem = question.parentElement;
+        
+        // Optional: Close other open FAQ items
+        document.querySelectorAll(".faq-item").forEach(item => {
+            if (item !== currentItem) {
+                item.classList.remove("active");
+            }
+        });
+
+        // Toggle current item
+        currentItem.classList.toggle("active");
+    });
+});
