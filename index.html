@@ -341,6 +341,124 @@
                 </div>
             </div>
         </section>
+
+        <!-- Visit Our Clinic Section -->
+        <section class="visit-section" id="visit">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Visit Our Clinic</h2>
+                    <p>Find us easily using public transport or driving directions.</p>
+                </div>
+
+                <div class="visit-grid">
+                    <!-- Clinic Address Card -->
+                    <div class="visit-card">
+                        <div class="visit-icon">📍</div>
+                        <h3>Clinic Address</h3>
+                        <p class="address-text">123 Health St, Wellness City, Country</p>
+                    </div>
+
+                    <!-- Driving Directions Card -->
+                    <div class="visit-card">
+                        <div class="visit-icon">🚗</div>
+                        <h3>Driving Directions</h3>
+                        <ul class="visit-list">
+                            <li>We are located on the corner of Health St and Wellness Ave.</li>
+                            <li>Find us directly across the street from the Central City Park.</li>
+                            <li>Easy access from major freeway exits 5A and 5B.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Public Transport Card -->
+                    <div class="visit-card">
+                        <div class="visit-icon">🚆</div>
+                        <h3>Public Transport</h3>
+                        <p>The nearest metro stop is "Wellness Central," a 5-minute walk from the clinic.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Booking Section -->
+        <section class="booking-section" id="booking">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Book an Appointment</h2>
+                    <p>Schedule your visit with our expert physicians quickly and easily.</p>
+                </div>
+
+                <div class="booking-wrapper">
+                    <!-- Appointment Form -->
+                    <div class="booking-form-container">
+                        <form class="appointment-form" id="appointmentForm">
+                            <div class="form-group">
+                                <label for="fullName">Full Name</label>
+                                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name"
+                                    required>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"
+                                        required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="department">Select Department</label>
+                                    <select id="department" name="department" required>
+                                        <option value="" disabled selected>Choose a department</option>
+                                        <option value="general">General Consultation</option>
+                                        <option value="pediatrics">Pediatrics</option>
+                                        <option value="cardiology">Cardiology</option>
+                                        <option value="emergency">Emergency Care</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="date">Preferred Date</label>
+                                    <input type="date" id="date" name="date" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Additional Notes or Symptoms (Optional)</label>
+                                <textarea id="message" name="message" rows="4"
+                                    placeholder="Briefly describe your symptoms or reason for visit"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-primary form-submit-btn">Confirm Appointment</button>
+                        </form>
+                    </div>
+
+                    <!-- Booking Info Card -->
+                    <div class="booking-info-card">
+                        <h3>Need Immediate Assistance?</h3>
+                        <p>If you have an urgent medical emergency, please do not use this booking form. Contact our
+                            emergency department or call us directly.</p>
+                        <div class="info-contact-item">
+                            <span class="info-icon">📞</span>
+                            <div>
+                                <span class="info-label">Emergency Hotline</span>
+                                <span class="info-value">+1 (234) 567-899</span>
+                            </div>
+                        </div>
+                        <div class="info-contact-item">
+                            <span class="info-icon">🕒</span>
+                            <div>
+                                <span class="info-label">Hours</span>
+                                <span class="info-value">Emergency Care: 24/7</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="site-footer" id="contact">

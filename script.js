@@ -40,3 +40,15 @@ document.querySelectorAll(".faq-question").forEach(question => {
         currentItem.classList.toggle("active");
     });
 });
+
+// Handle Appointment Form Submission
+const appointmentForm = document.getElementById("appointmentForm");
+if (appointmentForm) {
+    appointmentForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        
+        // You can add your backend fetch request or success notification here
+        alert("Thank you! Your appointment request has been submitted successfully. We will contact you shortly to confirm.");
+        appointmentForm.reset();
+    });
+}
