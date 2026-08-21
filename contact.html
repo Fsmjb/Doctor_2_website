@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Medicare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">Medicare</a>
+            </div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="doctors.html">Doctors</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html" style="color: #0077b6;">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="banner-container" style="min-height: 40vh;">
+        <div class="banner-content">
+            <h1>Contact Us</h1>
+            <p>Get in touch with our team for inquiries, appointments, or emergency assistance.</p>
+        </div>
+    </section>
+
+    <!-- Visit Clinic & Info Cards -->
+    <section class="visit-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>We are here to answer your questions and support your healthcare needs.</p>
+            </div>
+
+            <div class="visit-grid" style="margin-bottom: 3rem;">
+                <!-- Location Card -->
+                <div class="visit-card">
+                    <div class="visit-icon">📍</div>
+                    <h3>Our Location</h3>
+                    <p class="address-text">123 Health Avenue, Medical District</p>
+                    <p style="margin-top: 0.5rem; font-size: 0.9rem;">Easily accessible with dedicated patient parking available on-site.</p>
+                </div>
+
+                <!-- Phone Card -->
+                <div class="visit-card">
+                    <div class="visit-icon">📞</div>
+                    <h3>Phone & Support</h3>
+                    <p class="address-text">+1 (234) 567-890</p>
+                    <p style="margin-top: 0.5rem; font-size: 0.9rem;">Emergency Line: +1 (234) 999-888</p>
+                </div>
+
+                <!-- Email Card -->
+                <div class="visit-card">
+                    <div class="visit-icon">✉️</div>
+                    <h3>Email Address</h3>
+                    <p class="address-text">support@medicare.com</p>
+                    <p style="margin-top: 0.5rem; font-size: 0.9rem;">We respond to all online inquiries within 24 hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="booking-section" style="background-color: #f8f9fa;">
+        <div class="booking-wrapper">
+            <!-- Contact Form -->
+            <div class="booking-form-container">
+                <div style="margin-bottom: 1.5rem;">
+                    <h2 style="font-size: 1.75rem; color: #1a252f; margin-bottom: 0.5rem;">Send Us a Message</h2>
+                    <p style="font-size: 0.95rem; color: #666;">Fill out the form below and our team will get back to you shortly.</p>
+                </div>
+                
+                <form class="appointment-form" action="#" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 (234) 567-890" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" disabled selected>Select Subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="appointment">Appointment Assistance</option>
+                                <option value="billing">Billing & Insurance</option>
+                                <option value="feedback">Feedback</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary form-submit-btn">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Side Info Card -->
+            <div class="booking-info-card">
+                <h3>Working Hours</h3>
+                <p>Our facility is open throughout the week to provide reliable care when you need it most.</p>
+                
+                <div class="info-contact-item">
+                    <div class="info-icon">🕒</div>
+                    <div>
+                        <span class="info-label">Monday - Friday</span>
+                        <span class="info-value">8:00 AM - 8:00 PM</span>
+                    </div>
+                </div>
+
+                <div class="info-contact-item">
+                    <div class="info-icon">🕒</div>
+                    <div>
+                        <span class="info-label">Saturday - Sunday</span>
+                        <span class="info-value">9:00 AM - 5:00 PM</span>
+                    </div>
+                </div>
+
+                <div style="margin-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.5rem;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; color: #0077b6;">Emergency Services</h3>
+                    <p style="font-size: 0.9rem; color: #bdc3c7; margin-bottom: 0;">Our emergency trauma and critical care unit is fully operational 24 hours a day, 7 days a week.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Medicare</h3>
+                <p>Providing trusted, high-quality medical services to our community with dedication and modern facilities.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <p>123 Health Avenue, Medical District</p>
+                <p>Phone: +1 (234) 567-890</p>
+                <p>Email: support@medicare.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Medicare. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
